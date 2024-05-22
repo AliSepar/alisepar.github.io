@@ -86,3 +86,21 @@ body{
     text-align: center;
 
 }
+
+/* making responsive */
+
+@media (max-width:500px){
+    .main h1{
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+    .main p{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .social a{
+        font-size: 35px;
+    }
+
+
+}
