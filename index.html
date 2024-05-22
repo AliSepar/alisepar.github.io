@@ -7,19 +7,63 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Developer landing page</title>
 </head>
-<body>
+<body id="bodyTag">
+
+    <div class="head-btn">
+        <p id="green"></p>
+        <p id="redesh"></p>
+        <p id="gray"></p>
+        <p id="blue"></p>
+    </div>
     
     <div class="main">
             <h1>Hello, I'm Alisabah</h1>
-            <p>Junior Front-end | HTML | CSS | JavaScript</p>
+            <p>Junior Web Dev | HTML | CSS | JavaScript | PhP</p>
             <div class="social">
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-solid fa-x"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/AliSepar" target="_black"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/alisabah_separ/" target="_black"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/ali_separ" target="_black"><i class="fa-solid fa-x"></i></a>
+                <a href="https://be.linkedin.com/in/alisabah-separ" target="_black"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="www.facebook.com" target="_black"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.freecodecamp.org/" target="_black"><i class="fa-brands fa-free-code-camp"></i></a>
             </div>
     </div>
+
+
+
+    <script >
+        // getting the buttons
+        let greenColor = document.getElementById('green');
+        let redeshColor = document.getElementById('redesh');
+        let grayColor = document.getElementById('gray');
+        let blueColor = document.getElementById('blue');
+
+        // getting body tag
+        let bodytag = document.querySelector("#bodyTag");
+
+        // adding EventListener to the buttons
+        greenColor.addEventListener('click',()=>{
+            bodytag.style.backgroundColor="#469E4B";
+        });
+
+        redeshColor.addEventListener('click',()=>{
+            bodytag.style.backgroundColor="#AD3F4E";
+        });
+
+        
+        grayColor.addEventListener('click',()=>{
+            bodytag.style.backgroundColor="#495662";
+        });
+
+        blueColor.addEventListener('click',()=>{
+            bodytag.style.backgroundColor='#33409C';
+        });
+
+
+
+
+
+    </script>
 
 
 </body>

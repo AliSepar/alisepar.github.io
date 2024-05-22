@@ -12,11 +12,58 @@ body{
     justify-content: center;
     align-items: center; */
 }
+
+.head-btn{
+    /* background-color: red; */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 15px;
+    right: 30px;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.head-btn p{
+    margin: 5px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    transition: ease-in-out .3s;
+}
+
+.head-btn p:hover{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+
+#green{
+    background-color: #469E4B;
+}
+#redesh{
+    background-color: #AD3F4E;
+}
+#gray{
+    background-color: #495662;
+}
+#blue{
+    background-color: #33409C;
+}
+
+
+
 .main{
     align-self: center;
     margin:auto auto;
     position: relative;
-    top: 350px;
+    top: 250px;
     text-align: center;
     color: white;
 }
